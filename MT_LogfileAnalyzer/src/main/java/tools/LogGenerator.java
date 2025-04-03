@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class LogGenerator {
 
     private static final Random random = new Random();
-    // Formatter für Zeitstempel IN den Log-Einträgen
+    // Formatter für Zeitstempel IN den Log-Einträgenn
     private static final DateTimeFormatter LOG_ENTRY_TIMESTAMP_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS");
     // Formatter für das Datum IM DATEINAMEN
     private static final DateTimeFormatter FILENAME_DATE_FORMATTER = DateTimeFormatter.ISO_LOCAL_DATE; // YYYY-MM-DD
